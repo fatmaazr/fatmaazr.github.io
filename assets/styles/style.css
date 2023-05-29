@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: o;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 25px;
+}
+
+.atas {
+    background-color: #033F50;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+header p {
+    padding: 0 50px;
+}
+
+#beranda {
+    background-color: #033F50;
+    padding-top: 50px;
+}
+
+#logo {
+    width: 75px;
+    margin: 25px 25px 25px 50px;
+}
+
+#pembuka {
+    float: right;
+    color: white;
+    width: 50%;
+    margin: 75px 0;
+}
+
+p {
+    word-spacing: 1px;
+}
+
+#pembuka p {
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.macam {
+    box-shadow: 0 4px 8px 0 rgba(0, 34, 71, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#biru img {
+    float: left;
+}
+
+#biru p, #biru h3{
+    padding-left: 25%;
+}
+
+#biru {
+    background-color: #f4fdff;
+}
+
+#sirip img {
+    float: right;
+    padding-top: 20px;
+    width: 350px;
+}
+
+#sirip h3, #sirip p {
+    padding-right: 25%;
+    text-align: right;
+}
+
+#sirip {
+    background-color: #edf1f1;
+}
+
+#sperma img {
+    float: left;
+    padding-top: 20px;
+}
+
+#sperma h3, #sperma p {
+    padding-left: 25%;
+}
+
+#sperma {
+    background-color: #f4fdff;
+}
+
+#kepala img {
+    float: right;
+}
+
+#kepala h3, #kepala p{
+    padding-right: 25%;
+    text-align: right;
+}
+
+#kepala {
+    background-color: #edf1f1;
+}
+
+#orca img {
+    float: left;
+    padding-top: 20px;
+}
+
+#orca h3, #orca p {
+    padding-left: 25%;
+}
+
+#orca {
+    background-color: #f4fdff;
+}
+
+#sei img {
+    float: right;
+    padding-top: 20px;
+}
+
+#sei h3, #sei p {
+    padding-right: 25%;
+    text-align: right;
+}
+
+#sei {
+    background-color: #edf1f1;
+}
+
+#beluga img {
+    float: left;
+}
+
+#beluga h3, #beluga p{
+    padding-left: 25%;
+}
+
+#beluga {
+    background-color: #f4fdff;
+}
+
+.clear {
+    clear: left;
+}
+
+#bungkuk img {
+    float: right;
+}
+
+#bungkuk h3, #bungkuk p {
+    padding-right: 25%;
+    text-align: right;
+}
+
+#bungkuk {
+    background-color: #edf1f1;
+}
+
+#paus {
+    width: 40%;
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.featured-image {
+    max-width: 300px;
+}
+
+#profile img {
+    width: 100px;
+}
+
+#profile {
+    text-align: center;
+}
+
+#profile th, #profile td {
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    font-size: 16px;
+    padding: 15px 0;
+    background-color: #033F50;
+    color: white;
+}
+
+th {
+    text-align: right;
+    padding: 13px;
+}
+
+td {
+    text-align: left;
+    padding: 13px;
+}
+
+#profile th, #profile td {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 1px solid #006d88;
+    margin-left: 25%;
+    padding: 7px;
+}
+
+#profile th {
+    width: 20%;
+}
+
+#info table, #info th, #info td {
+    margin: 0 35%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 30%;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+#info th {
+    text-align: left;
+    width: 10%;
+}
+
+#profile {
+    box-shadow: 0 4px 8px 0 rgba(0, 34, 71, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    background-color: #006d88;
+    color: white;
+}
+
+.menu-toggle {
+    display: none;
+    float: right;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    opacity: 0;
+    left: -9px;
+    top: -8px;
+    z-index: 2;
+}
+
+.menu-toggle span:nth-child(2) {
+    transform-origin: 0 0;
+}
+
+.menu-toggle span:nth-child(4) {
+    transform-origin: 0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2) {
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4) {
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3) {
+    transform: scale(0);
+}
+
+.menu-toggle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #fafbfc;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+/* responsive */
+@media screen and (max-width: 1050px) {
+    .featured-image {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #info h2, #info p {
+        text-align: left;
+    }
+    #info h2 {
+        padding-left: 7%;
+    }
+
+    #pembuka {
+        margin: 35px 0;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    #biru img {
+        float: none;
+    }
+
+    #sirip img {
+        float: none;
+    }
+
+    #sperma img {
+        float: none;
+    }
+
+    #kepala img {
+        float: none;
+    }
+
+    #orca img {
+        float: none;
+    }
+
+    #sei img {
+        float: none;
+    }
+
+    #beluga img, #bungkuk img {
+        float: none;
+    }
+
+    #biru h3, #biru p{
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #sirip h3, #sirip p {
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #sperma h3, #sperma p {
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #kepala h3, #kepala p {
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #orca h3, #orca p {
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #sei h3, #sei p {
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #beluga h3, #beluga p {
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #bungkuk h3, #bungkuk p{
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    #profile {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    h3 {
+        text-align: left;
+        padding-left: 7%;
+    }
+
+    #info table, #info th, #info td {
+        margin-left: 7%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+
+    nav a {
+        font-size: 15px;
+    }
+
+    #logo {
+        padding: 0;
+        margin: 0;
+        width: 65px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+
+    .atas {
+        height: 55px;
+    }
+}
+
+
+@media screen and (max-width:431px) {
+    nav ul {
+        position: absolute;
+        margin: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        top: 0;
+        background-color:#01566b;
+        padding-top: 100px;
+        z-index: -1;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+
+    nav ul.slide {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    nav li {
+        padding-bottom: 20px;
+        right: 0;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+    
+    #profile {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #logo {
+        width: 30px;
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    #pembuka {
+        margin: 9px 0;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+
+    #profile table, #profile th, #profile td {
+        margin-left: 1%;
+
+    }
+
+    #profile th {
+        width: 20%;
+    }
+
+    #jenis h2 {
+        text-align: left;
+        margin-left: 7%;
+    }
+
+    #kepala p {
+        padding-right: 0%;
+    }
+
+    #sirip p {
+        padding-right: 0%;
+    }
+
+    #sei p {
+        padding-right: 0%;
+    }
+
+    #bungkuk p {
+        padding-right: 0%;
+    }
+
+}
